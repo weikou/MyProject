@@ -20,6 +20,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/weikou/MyProject.jl",
+    repo="github.com/weikou/MyProject.git",
     devbranch="main",
 )
