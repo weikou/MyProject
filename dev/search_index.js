@@ -1,0 +1,3 @@
+var documenterSearchIndex = {"docs":
+[{"location":"#MyProject","page":"Home","title":"MyProject","text":"","category":"section"},{"location":"","page":"Home","title":"Home","text":"Documentation for MyProject.","category":"page"},{"location":"","page":"Home","title":"Home","text":"","category":"page"},{"location":"#MyProject.greet-Tuple{}","page":"Home","title":"MyProject.greet","text":"greet()\n\nPrint 'Hello World!'.\n\nExample\n\njulia> greet()\n\"Hello World!\"\n\n\n\n\n\n","category":"method"},{"location":"#MyProject.greet_alien-Tuple{}","page":"Home","title":"MyProject.greet_alien","text":"greet_alien()\n\nGreet an alien with a random 8-characters long name.\n\nExample\n\njulia> length(greet_alien())\n14\n\n\n\n\n\n","category":"method"}]
+}
