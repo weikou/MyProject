@@ -6,11 +6,11 @@ DocMeta.setdocmeta!(MyProject, :DocTestSetup, :(using MyProject); recursive=true
 makedocs(;
     modules=[MyProject],
     authors="Wiebke Scholz wiebke.scholz@uibk.ac.at",
-    repo="https://github.com/weikou/MyProject.jl/blob/{commit}{path}#{line}",
-    sitename="MyProject.jl",
+    repo="https://github.com/weikou/MyProject/blob/{commit}{path}#{line}",
+    sitename="MyProject",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://weikou.github.io/MyProject.jl",
+        canonical="https://weikou.github.io/MyProject",
         edit_link="main",
         assets=String[],
     ),
@@ -20,6 +20,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/weikou/MyProject.git",
+    repo="github.com/weikou/MyProject",
     devbranch="main",
 )
